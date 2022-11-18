@@ -24,10 +24,11 @@ body {
 }
 
 section{
-	width:95%;   = /*525px(Section width)/800px(Body width) * 100*/
-	float:none;
-	padding-right:2.5%;  = /*20px(Padding-left width)/800px(Body width) * 100*/
-	padding-left:2.5%;  = /*20px(Padding-right width)/800px(Body width) * 100*/
+	width:65.625%;
+	float:right;
+	padding-top: 0px;
+	padding-right:2.5%;
+	padding-left:2.5%;
 	padding-bottom:20px;
 }
 
@@ -91,19 +92,14 @@ ul.circle {
 
 
 aside{
-	width:95%; /* = 215px(Aside width)/800px(Body width) * 100*/
-	float:none;
-	padding-left:2.5%; /* = 20px(Padding-left width)/800px(Body width) * 100*/
+	width:26.875%;
+	float:left;
+	padding-top: 0px;
+	padding-left:2.5%;
 	padding-bottom:20px;
 	padding-right:2.5%;
 }
-/*
-aside{
-	width:215px;
-	float:right;
-	padding-left:20px;
-	padding-bottom:20px;
-}*/
+
 
 html{
 	background-color:white;
@@ -217,6 +213,9 @@ footer p {
 
 }
 
+
+
+
 @media only screen and (max-width:392px){
 	aside h2 a{
 		font-size:85%;
@@ -246,7 +245,6 @@ footer p {
 	aside div {
 		column-count: 2;
 	}
-	/*hide the mobile menu*/
 	#nav_menu {display:none;}
 	.slicknav_menu{display:block;}
 	div.slicknav_menu{background-color:#800000; !important;}
