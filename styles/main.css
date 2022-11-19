@@ -92,13 +92,12 @@ ul.circle {
 
 
 aside{
-	width:26.875%;
-	float:left;
+	width:95%;
+	float:none;
 	padding-top: 0px;
 	padding-left:2.5%;
 	padding-bottom:20px;
-	padding-right:2.5%;
-}
+	}
 
 
 html{
@@ -234,6 +233,7 @@ footer p {
 
 	}
 
+
 }
 .slicknav_menu{display:none;}
 
@@ -248,9 +248,15 @@ footer p {
 	#nav_menu {display:none;}
 	.slicknav_menu{display:block;}
 	div.slicknav_menu{background-color:#800000; !important;}
+	section{
+		float: none;
+		width: 95%;
+	}
+
+
 
 }
-@media only screen and (max-width:263px){
+@media only screen and (max-width:249.60px){
 	*{
 		font-size: 90%;
 	}
